@@ -17,9 +17,9 @@ function draw() {
   noFill();
   stroke(0);
   strokeWeight(8);
-  line(400, 400, 400, 400+80);
-  arc(400-40, 400+80, 80, 40, 0, PI);
-  arc(400+40, 400+80, 80, 40, 0, PI);
+  line(400, 400, 400, 400+60);
+  curve(400-40, 400-120, 400, 400+60, 400+80, 400+80, 400+80, 400);
+  curve(400+40, 400-120, 400, 400+60, 400-80, 400+80, 400-80, 400);
   //eyes
   fill(255);
   ellipse(400-80, 400-60, 80, 40);
@@ -61,9 +61,9 @@ function draw() {
   noFill();
   stroke(0);
   strokeWeight(8*sizeRate);
-  line(centerX, centerY, centerX, centerY+80*sizeRate);
-  arc(centerX-40*sizeRate, centerY+80*sizeRate, 80*sizeRate, 40*sizeRate, 0, PI);
-  arc(centerX+40*sizeRate, centerY+80*sizeRate, 80*sizeRate, 40*sizeRate, 0, PI);
+  line(centerX, centerY, centerX, centerY+60*sizeRate);
+  curve(centerX-40*sizeRate, centerY-120*sizeRate, centerX, centerY+60*sizeRate, centerX+80*sizeRate, centerY+80*sizeRate, centerX+80*sizeRate, centerY);
+  curve(centerX+40*sizeRate, centerY-120*sizeRate, centerX, centerY+60*sizeRate, centerX-80*sizeRate, centerY+80*sizeRate, centerX-80*sizeRate, centerY);
   //eyes
   fill(255);
   ellipse(centerX-80*sizeRate, centerY-60*sizeRate, 80*sizeRate, 40*sizeRate);
