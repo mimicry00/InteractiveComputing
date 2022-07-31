@@ -14,8 +14,6 @@ function setup() {
 }
 
 function draw() {
-
-
 }
 
 function drawDiagonal(x, y, w, h) {
