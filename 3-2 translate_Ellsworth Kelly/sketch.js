@@ -1,7 +1,11 @@
 var rad = 0;
+var numh, numv;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
+
+  numh = width/160+1;
+  numv = height/160;
 }
 
 function draw() {
@@ -10,8 +14,8 @@ function draw() {
   fill(255, 236, 0);
   noStroke();
 
-  for (var i=0; i<6; i++) {
-    for (var j=0; j<6; j++) {
+  for (var i=0; i<numh; i++) {
+    for (var j=0; j<numv; j++) {
       
       var centerX = i*160;
       var centerY = j*160;
