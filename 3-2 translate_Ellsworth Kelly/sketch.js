@@ -1,47 +1,48 @@
-// let x = 400;
-// let y = 200;
+var rad = 0;
+var numh, numv;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+
+  numh = width/160+1;
+  numv = height/160;
 }
 
 function draw() {
   background(255);
 
-  for(let x=0; x<width; x+=400) {
-    for(let y=0; y<height; y+= 300) {
+  fill(255, 236, 0);
+  noStroke();
+
+  for (var i=0; i<numh; i++) {
+    for (var j=0; j<numv; j++) {
+      
+      var centerX = i*160;
+      var centerY = j*160;
+      
       push();
-      translate(x, y);
-      rotate(PI/6);
-      noStroke();
-      fill(245, 10, 40);
+      translate(centerX, centerY);
+      rotate(rad);
+			
       beginShape();
-      curveVertex(-200, -200);
-      curveVertex(-200, 0);
-      curveVertex(-160, 180);
-      curveVertex(-40, 250);
-      curveVertex(120, 180);
-      curveVertex(200, 0);
-      curveVertex(200, -200);
-      endShape();
-      fill(10, 40, 180);
-      beginShape();
-      curveVertex(-200, -200);
-      curveVertex(-200, 0);
-      curveVertex(-120, 180);
-      curveVertex(20, 250);
-      curveVertex(150, 160);
-      curveVertex(200, 0);
-      curveVertex(200, -200);
+      vertex(-10, -60);
+      vertex(-60, -110);
+      vertex(-105, -35);
+      vertex(-60, -5);
+      vertex(-100, +30);
+      vertex(-50, +105);
+      vertex(+5, +45);
+      vertex(+40, +95);
+      vertex(+95, +30);
+      vertex(+40, -10);
+      vertex(+105, -60);
+      vertex(+30, -105);
+      vertex(-10, -60);
       endShape();
       pop();
     }
   }
+  
+  rad += PI/180;
 
-  // noLoop();
 }
-
-// function mousePressed() {
-//   x = mouseX;
-//   y = mouseY;
-// }
