@@ -1,7 +1,7 @@
 let triangles = [];
 
 function setup() {
-  createCanvas(800, 400);
+  createCanvas(windowWidth, windowHeight);
   colorMode(HSB);
 
   for(let i=0; i<width; i+=20) {
