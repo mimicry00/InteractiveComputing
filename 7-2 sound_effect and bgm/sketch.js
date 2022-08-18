@@ -3,18 +3,17 @@ let click, effect;
 let vines = [];
 let num = 60;
 
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-  background(0);
-}
-
 function preload() {
   click = loadSound('assets/mouse-click.mp3');
   effect = loadSound('assets/grains.mp3');
 }
 
-function mousePressed() {
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  background(0);
+}
 
+function mousePressed() {
   click.play();
   if(!effect.isPlaying()) effect.play();
 
