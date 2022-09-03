@@ -1,4 +1,4 @@
-const interval = 4; //global variable
+const interval = 8; //global variable
 let num;
 
 function setup() {
