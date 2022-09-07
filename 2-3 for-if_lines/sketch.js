@@ -1,36 +1,36 @@
-const interval = 8;
+const interval = 8; //global variable
+let num;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(800, 800); //width, height
+  num = width/interval;
 }
 
 function draw() {
   background(0);
 
-  noFill();
-  for(let i=0; i<height/interval; i++) {
-    let col, w;
-    let startX, startY, endX, endY;
+  for(let i=0; i<num; i++) {
+    let startx, starty, endx, endy;
+    let c, weight;
+  
+    startx = i*interval;
+    endx = i*interval;
 
-    if(i%2 == 0) {
-      col = color(255);
-      w = 1;
-      startX = interval*i;
-      startY = height/2 - i*4;
-      endX = interval*i;
-      endY = height/2 + i*4;
-    } else {
-      col = color(120, 60, 4);
-      w = 4
-      startX = interval*i;
-      startY = i*4;
-      endX = interval*i;
-      endY =  height-i*4;
+    if(i%2 === 0) { //even
+      c = color(255);
+      weight = 1;
+      starty = height/2-i*4;
+      endy = height/2+i*4;
+    } else {  //odd
+      c = color(120, 60, 4);
+      weight = 4;
+      starty = i*4;
+      endy = height - i*4;
     }
 
-    stroke(col);
-    strokeWeight(w);
-    line(startX, startY, endX, endY);
+    noFill();
+    stroke(c);
+    strokeWeight(weight);
+    line(startx, starty, endx, endy);
   }
-
 }
