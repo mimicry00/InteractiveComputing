@@ -8,12 +8,12 @@
 ####1주차
 1. 기본형(Primitives) : Graphic Variation 1   
 2. 곡선과 색(Curves & Color) : Graphic Variation 2   
-####2주차   
+####2주차
 3. 변수(Variable) : Cat Face   
 4. 반복문(For Loop) : Circles   
 5. 조건문(If Conditional) : Lines   
 6. 반복문+조건문(For+If) : Diagonal  
-####3주차   
+####3주차
 7. Shape : Scrible      
 8. Translate   
 9. Translate   
