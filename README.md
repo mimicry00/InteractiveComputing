@@ -5,37 +5,6 @@
 
 코드와 영상은 지속적으로 업데이트하도록 하겠습니다. 아래는 목록입니다.    
 
-**1주차**
-1. 기본형(Primitives) : Graphic Variation 1   
-2. 곡선과 색(Curves & Color) : Graphic Variation 2   
-**2주차**
-3. 변수(Variable) : Cat Face   
-4. 반복문(For Loop) : Circles   
-5. 조건문(If Conditional) : Lines   
-6. 반복문+조건문(For+If) : Diagonal  
-**3주차**
-7. Shape : Scrible      
-8. Translate   
-9. Translate   
-**4주차**
-10. 함수(Function)   
-11. 배열(Array)   
-12. 함수+배열   
-**5주차**
-13. Class 1   
-14. Class 2   
-15. Class 3   
-**6주차** 
-16. Text   
-17. Image 1   
-18. Image 2   
-**7주차**
-19. Video   
-20. Sound   
-   
-   
-   
-   
 Youtube 채널 : MIMLAB "Play with p5.js"   
 https://www.youtube.com/watch?v=cTSYJhAFf5A&list=PLTqGVDX47WeeemN76caHf3ybqqD5A7X24
 
