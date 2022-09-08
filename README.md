@@ -30,9 +30,9 @@
 #### 7주차
 19. Video   
 20. Sound   
-   
-   
-   
+<br>
+
+
 ##### 관련링크
 Youtube 채널 : MIMLAB "Play with p5.js"   
 https://www.youtube.com/watch?v=cTSYJhAFf5A&list=PLTqGVDX47WeeemN76caHf3ybqqD5A7X24   
