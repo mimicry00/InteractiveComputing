@@ -13,9 +13,9 @@
 5. 조건문(If Conditional) : Lines   
 6. 반복문+조건문(For+If) : Diagonal  
 #### 3주차   
-7. Shape : Scrible      
-8. Translate   
-9. Translate   
+7. 자유형(Shape) : Scrible      
+8. 변환(Translate)   
+9. 변환(Translate)   
 #### 4주차
 10. 함수(Function)   
 11. 배열(Array)   
