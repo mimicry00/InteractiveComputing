@@ -14,8 +14,8 @@
 6. 반복문+조건문(For+If) : Diagonal  
 #### 3주차   
 7. 자유형(Shape) : Scrible      
-8. 변환(Translate)   
-9. 변환(Translate)   
+8. 변환(Translate) 1   
+9. 변환(Translate) 2   
 #### 4주차
 10. 함수(Function)   
 11. 배열(Array)   
