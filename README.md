@@ -14,11 +14,11 @@
 6. 반복문+조건문(For+If) : Diagonal  
 #### 3주차   
 7. 자유형(Shape) : Scrible      
-8. 변환(Translate)   
-9. 변환(Translate)   
+8. 변환(Translate) 1 : Kelly   
+9. 변환(Translate) 2 : Rotating Line   
 #### 4주차
-10. 함수(Function)   
-11. 배열(Array)   
+10. 함수(Function) : Ripples   
+11. 배열(Array) : Concentric   
 12. 함수+배열   
 #### 5주차
 13. 객체(Class) 1   
