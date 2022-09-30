@@ -13,7 +13,7 @@
 5. 조건문(If Conditional) : Lines   
 6. 반복문+조건문(For+If) : Diagonal  
 #### 3주차   
-7. 자유형(Shape) : Scrible      
+7. 자유형(Shape) : Scribble      
 8. 변환(Translate) 1 : Kelly   
 9. 변환(Translate) 2 : Rotating Line   
 #### 4주차
