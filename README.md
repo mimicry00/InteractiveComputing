@@ -20,7 +20,7 @@
 #### 4주차
 10. 함수(Function) : Ripples   
 11. 배열(Array) : Concentric   
-12. 함수+배열   
+12. 함수+배열 : Complementary Color Blocks   
 #### 5주차
 13. 객체(Class) 1   
 14. 객체(Class) 2   
