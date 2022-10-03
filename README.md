@@ -19,7 +19,7 @@
 9. 변환(Translate) 2 : Rotating Line   
 #### 4주차
 10. 함수(Function) : Ripples   
-11. 배열(Array) : Concentric   
+11. 배열(Array) : Concentric Circles   
 12. 함수+배열 : Complementary Color Blocks   
 #### 5주차
 13. 객체(Class) 1   
