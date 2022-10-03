@@ -35,8 +35,8 @@
 <br>
 <br>
 
-Youtube 채널 : MIMLAB "Play with p5.js"   
+Youtube 채널 - MIMLAB "Play with p5.js" :   
 https://www.youtube.com/watch?v=cTSYJhAFf5A&list=PLTqGVDX47WeeemN76caHf3ybqqD5A7X24   
-Openprocessing Curation    
+Openprocessing Curation :    
 https://openprocessing.org/curation/80763   
 
